@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+from Tkinter import *
+import anydbm
+
+from Tkinter import *
+
+root = Tk()
+var = StringVar()
+var.set('เอ่อ')
+
+l = Label(root, textvariable = var, justify=LEFT, padx=20, pady=10)
+l.pack()
+
+t = Entry(root, textvariable = var)
+t.pack()
+
+root.mainloop() # the window is now displayed
